@@ -37,13 +37,6 @@ To add a new project, copy the `.project-card` HTML block in `index.html` and pa
 ### Updating Skills
 To add a new skill, copy the `.skill-card` HTML block in `index.html` and paste it inside the `.skills-grid`. Update the icon (using FontAwesome classes) and the skill name.
 
-### Changing Colors
-Open `style.css` and modify the variables at the top of the file:
-```css
-:root {
-    --primary-color: #0066FF; /* Change this to your preferred color */
-    /* ... */
-}
 ```
 
 ## Credits
