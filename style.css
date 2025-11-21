@@ -79,9 +79,6 @@ ul {
     font-size: 2.5rem;
     margin-bottom: 3rem;
     position: relative;
-    display: inline-block;
-    left: 50%;
-    transform: translateX(-50%);
 }
 
 .section-title::after {
@@ -782,6 +779,11 @@ ul {
 
     .contact-wrapper {
         flex-direction: column;
+    }
+
+    .section-title {
+        font-size: 2rem;
+        margin-bottom: 2rem;
     }
 }
 
