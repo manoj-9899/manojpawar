@@ -157,6 +157,8 @@ ul {
     transition: var(--transition);
 }
 
+
+
 .nav-container {
     display: flex;
     justify-content: space-between;
@@ -167,10 +169,16 @@ ul {
     font-size: 1.8rem;
     font-weight: 700;
     color: var(--text-color);
+    font-family: 'Courier New', monospace;
+    background: linear-gradient(to right, var(--primary-color), #00c6ff);
+    -webkit-background-clip: text;
+    background-clip: text;
+    -webkit-text-fill-color: transparent;
+    transition: transform 0.3s ease;
 }
 
-.dot {
-    color: var(--primary-color);
+.logo:hover {
+    transform: scale(1.1);
 }
 
 .nav-links {
